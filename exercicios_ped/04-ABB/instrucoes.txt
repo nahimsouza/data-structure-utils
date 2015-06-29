@@ -1,0 +1,16 @@
+=================================================================
+					 Exercicio - ABB
+=================================================================
+
+Este exercicio foi retirado de URI Online Judge:
+www.urionlinejudge.com.br/judge/en/problems/view/1195
+
+A descricao do exercicio pode ser encontrada no link, ou no 
+arquivo "URI Online Judge - 1195 - Binary Search Tree.pdf".
+
+Exemplos de entrada e saida foram colocados nos arquivos
+sample.in e sample.out, respectivamente.
+
+Observe cuidadosamente os formatos de entrada e saida de dados.
+
+=================================================================

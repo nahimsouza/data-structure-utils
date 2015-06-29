@@ -1,0 +1,13 @@
+=================================================================
+					 Exercicio - Fila
+=================================================================
+
+A descricao do exercicio pode ser encontrada no arquivo 
+"Caixa Preferencial.pdf"
+
+Exemplos de entrada e saida foram colocados nos arquivos
+sample.in e sample.out, respectivamente.
+
+Observe cuidadosamente os formatos de entrada e saida de dados.
+
+=================================================================

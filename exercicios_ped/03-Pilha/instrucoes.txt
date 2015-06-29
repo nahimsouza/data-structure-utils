@@ -1,0 +1,49 @@
+=================================================================
+					 Exercicio - Pilha
+=================================================================
+
+Este exercicio foi retirado de URI Online Judge:
+www.urionlinejudge.com.br/judge/en/problems/view/1252
+
+A descricao do exercicio pode ser encontrada no link acima, ou 
+no arquivo "URI-1083-LEXSIM.pdf"
+
+Você deverá implementar um programa que converte uma expressão 
+infixa para uma expressão posfixa. Um tutorial bem simples pode 
+ser encontrado neste link: 
+	- http://csis.pace.edu/~wolf/CS122/infix-postfix.htm
+ 
+Além de converter a expressão, você precisará verificar se ela contém 
+erros léxicos ou sintáticos. Um erro léxico acontece quando há algum 
+caracter inválido na expressão. Já um erro sintático pode ocorrer por
+vários motivos. Para este exercicio considere:
+	- nao fechar parentesis que foram abertos
+	- usar simbolos com mais de uma letra (AA+BB, por exemplo)
+	- expressao infixa termina com um sinal (a+b+)
+	- usar dois sinais juntos (a++b, por exemplo)
+	- fechar parentesis sem abrir
+
+Na descricao do problema é pedido para considerar que o final da 
+entrada é o EOF. Isto pode ser feito usando da seguinte forma:
+
+int main() {
+    char expr[MAX]; // expressao infixa
+    char post[MAX]; // expressao posfixa
+    Pilha p;
+    int i;
+ 
+    while (scanf("%s", expr) != EOF) {
+        inicializaPilha(&p);
+        infixToPostfix(expr, &p, post);
+        printf("%s\n", post);
+    }
+     
+    return 0;
+}
+
+Exemplos de entrada e saida foram colocados nos arquivos
+sample.in e sample.out, respectivamente.
+
+Observe cuidadosamente os formatos de entrada e saida de dados.
+
+=================================================================
